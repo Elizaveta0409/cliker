@@ -1,0 +1,251 @@
+.maket_page{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(59, 192, 253);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.right_image_block{
+    height: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_button{
+    display: flex;
+    flex-direction: column;
+}
+.image_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image_button img{
+    width: 60%;
+    height: 100%;
+}
+.buttonk{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_buttonk{
+    display: flex;
+    flex-direction: column;
+}
+.image_buttonk{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_buttonk img{
+    width: 70%;
+    height: 90%;
+}
+.buttond{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_buttond{
+    display: flex;
+    flex-direction: column;
+}
+.image_buttond{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image_buttond img{
+    width: 70%;
+    height: 90%;
+}
+.center_image_block{
+    height: 45%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttongift{
+    width: 80%;
+    height: 60%;
+    display: flex;
+}
+.image_buttongift img{
+    width: 100%;
+    height: 55%;
+}
+.fieldachiv img{
+    width: 80%;
+    height: 110%;
+}
+.buttona{
+    width: 99%;
+    height: 100%;
+    margin-top: 5%;
+    background-color: rgb(253, 246, 144);
+    border: 2px solid black;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.fieldachiv{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#dialog{
+    width: 40%;
+    height: 70vh;
+    border: 0px;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 15vh;
+    box-shadow: 20px 20px 20px 20px rgb(205, 204, 204);
+    font-size: 20pt;
+    font-weight: 600;
+    boxdiv{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+#dialog::backdrop{
+    background-color: rgb(158, 30, 158);
+}
+.text_buttona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_buttong{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 15pt;
+}
+#fieldBalance{
+    width: 10%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    font-weight: 800;
+    position: relative;
+    top: 5%;
+}
+.image_buttondog img{
+    width: 100%;
+    height: 100%;
+}
+.left_image_block{
+    height: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonkyrsor{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_buttonkyrsor{
+    display: flex;
+    flex-direction: column;
+}
+.image_buttonkyrsor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_buttonkyrsor img{
+    width: 100%;
+    height: 80%;
+}
+.buttonball{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_buttonball{
+    display: flex;
+    flex-direction: column;
+}
+.image_buttonball{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_buttonball img{
+    width: 55%;
+    height: 80%;
+}
+.buttonp{
+    width: 80%;
+    height: 20%;
+    background-color: rgb(152, 226, 245);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text_buttonp{
+    display: flex;
+    flex-direction: column;
+}
+.image_buttonp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_buttonp img{
+    width: 60%;
+    height: 100%;
+}
